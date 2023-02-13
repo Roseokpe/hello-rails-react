@@ -114,8 +114,8 @@ To run the project, execute the following command:
 
 👤 **Rose Okpe**
 
-- GitHub: [@RiyaBulia12](https://github.com/Roseokpe)
-- LinkedIn: [Riya-Bulia](https://linkedin.com/in/roseokpe)
+- GitHub: [@roseokpe](https://github.com/Roseokpe)
+- LinkedIn: [rose okpe](https://linkedin.com/in/roseokpe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
