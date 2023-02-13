@@ -1,112 +1,162 @@
-# Project Name
+<a name="readme-top"></a>
+<!-- TABLE OF CONTENTS -->
 
-Hello Rails From React
+# 📗 Table of Contents
 
-# Description the project.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-This is a simple web app to test working with rails and react
+<!-- PROJECT DESCRIPTION -->
 
-## Built With
+# 📖 Hello World <a name="about-project"></a>
 
-- Languages:
-  _**Ruby**_
-  _**React**_
-  _**Redux**_
-  _**Webpack**_
-  _**Postgresql**_
-- Frameworks: _**Ruby On Rails**_
-- Technologies used: _**Visual Studio Code**_
+> This project provides the endpoint based on ruby on rails to generate random greeting messages which in is used by react frontend application, all implemented in single app with webpack.
 
-### Requirements
 
-In order to work on this project, you need to have the following dependencies installed:
+## 🛠 Built With <a name="built-with"></a>
 
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Postgresql](https://www.postgresql.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-- [Rails](https://rubyonrails.org/)
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### Clone this repository
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://api.rubyonrails.org/">Rails</a></li>
+  </ul>
+</details>
 
-```bash
-$ git clone git@github.com:.git
-$ cd hello-rails-react
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Generate Random Messages**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Coming soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ gem install rails
 ```
 
-### Commands to run
+### Setup
 
-Run
+Clone this repository to your desired folder:
 
-```bash
-$ bundle install
+```sh
+  git clone https://github.com/Roseokpe/hello-rails-react
+  cd Hello-Rails-React
 ```
 
-To get all the gems required for the project
+### Install
 
-Then, run
+Install this project with:
 
-```bash
-$ npm install
+```sh
+  bundle install
+  rails db:drop db:create db:migrate db:seed
 ```
 
-To install packages such as style linters
+### Usage
 
-To check linters locally, use
+To run the project, execute the following command:
 
-```bash
-$ rubocop
-$ npx stylelint "**/*.{css,scss}"
+```sh
+  rails server
 ```
 
-Once you have the project correctly set up, run
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```bash
-$ bin/rails db:setup
-```
+<!-- AUTHORS -->
 
-To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
-
-Finally, each time you make changes to the project, run
-
-```bash
-$ bundle exec rspec /spec
-```
-
-In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description.
-
-Important note: Since this project uses webpack for the bundling, you need to run:
-
-```bash
-$ ./bin/dev i am on windows so you've to run yarn build --watch and then start the server
-```
-
-For you to see the app being applied in the browser during development
-
-## Author
+## 👥 Authors <a name="authors"></a>
 
 👤 **Rose Okpe**
 
-- GitHub: [@roseokpe](https://github.com/roseokpe)
-- Twitter: [@troseokpe](https://twitter.com/roseokpe)
+- GitHub: [@roseokpe](https://github.com/Roseokpe)
+- LinkedIn: [rose okpe](https://linkedin.com/in/roseokpe)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add Security Layer for the Endpoint**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Inspiration
-- etc
+If you like this project give as a star! ⭐️
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./LICENSE) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- [Microverse](https://github.com/microverseinc/curriculum-rails/blob/main/connect-frontend-frameworks/hello_world_two_apps.md)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
